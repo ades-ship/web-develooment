@@ -1,0 +1,38 @@
+p,a{
+    color: green;
+}
+
+li{
+    list-style-type: none;
+    list-style: square;
+}
+
+.special{
+    color: orange;
+    font-weight: bold;
+
+}
+
+span.special,li.special{
+    color: blue;
+    font-weight: red;
+}
+
+li.em{
+    color: rebeccapurple;
+}
+
+h1+p{
+    font-size: 200%;
+}
+
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+body h1+p.special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
