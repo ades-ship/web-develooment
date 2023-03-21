@@ -8,7 +8,8 @@
    
 </head>
 <body>
-    <form action="">
+    <!-- prevoius code -->
+    <!-- <form action="">
         <h1>payment form</h1>
         <h2>contact information</h2>
         <p>Name:* <input type="text" name="name" required></p>
@@ -46,6 +47,61 @@
         cvv* <input type="password" name="cvv" id="cvv" required>
     </p>
     <p>submit <input type="submit" value="pay now"></p>
+    </form> -->
+
+    <!-- new code -->
+
+    <form>
+        <fieldset>
+            <legend>patient details *</legend>
+        <p>
+            <!-- male<input type="radio" name="gender" id="male" required>
+            female<input type="radio" name="gender" id="female" required> -->
+            <label>
+                salutation
+                <br/>
+                <select name="salutation" required>
+                    <option>mr.</option>
+                    <option>mrs</option>
+                    <option>dr.</option>
+
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>Name:* <input type="text" name="name" required></label>
+         </p>
+
+         <p>
+            <label>last name:* <input name="lastname" name="name" required></label>
+         </p>
+
+         <legend>Gender *</legend>
+         <p>
+             male<input type="radio" name="gender" id="male" required>
+             female<input type="radio" name="gender" id="female" required>
+         </p>
+
+         <label>
+            bloodgroup 
+            <br/>
+            <select name="bloodgroup" required>
+                <option>o+</option>
+                <option>o-</option>
+                <option>ab+</option>
+                <option>a+</option>
+         </label>
+         <br>
+         <p>
+            <label>
+                bithday:
+                <br/>
+                <input type="date" name="bithday">
+             </label>
+         </p>
+         
+    </fieldset>
     </form>
     
 </body>
